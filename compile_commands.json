@@ -1,0 +1,36 @@
+[
+  {
+    "file": "server.c",
+    "arguments": [
+      "/usr/sbin/clang",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wshadow",
+      "-Wconversion",
+      "-Wsign-conversion",
+      "-Wformat=2",
+      "-Wnull-dereference",
+      "-Wcast-qual",
+      "-Wcast-align",
+      "-Wvla",
+      "-Wundef",
+      "-Wmissing-prototypes",
+      "-Wmissing-declarations",
+      "-Wimplicit-fallthrough",
+      "-Wstrict-overflow=2",
+      "-Wwrite-strings",
+      "-O0",
+      "-g3",
+      "-fno-omit-frame-pointer",
+      "-fsanitize=address,undefined,leak",
+      "-fsanitize=address,undefined,leak",
+      "-std=c23",
+      "-o",
+      "build/dev/server",
+      "server.c"
+    ],
+    "directory": "/home/ottojvn/Projects/sserver-c",
+    "output": "build/dev/server"
+  }
+]

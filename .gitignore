@@ -1,0 +1,17 @@
+.DS_Store
+*.log
+tmp/
+
+# Build outputs
+build/
+server
+
+# Editor/IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Debug/profiling
+*.dSYM/
